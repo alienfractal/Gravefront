@@ -1,0 +1,501 @@
+$pitchshiftrange 4
+
+$random PlayerFighterExtremeDeathPicker	{ PlayerFighterExtreme1Death
+					  PlayerFighterExtreme2Death
+					  PlayerFighterExtreme3Death }
+
+$playeralias	Baratus	male	*death		PlayerFighterNormalDeath
+$playeralias	Baratus	male	*crazydeath	PlayerFighterCrazyDeath
+$playeralias	Baratus	male	*burndeath	PlayerFighterBurnDeath
+$playeralias	Baratus	male	*xdeath		PlayerFighterExtremeDeathPicker
+$playeralias	Baratus	male	*pain100	PlayerFighterPain
+$playersounddup	Baratus	male	*pain75		*pain100
+$playersounddup	Baratus	male	*pain50		*pain100
+$playersounddup	Baratus	male	*pain25		*pain100
+$playeralias	Baratus	male	*grunt		PlayerFighterGrunt
+$playeralias	Baratus	male	*land		PlayerLand
+$playeralias	Baratus	male	*poison		PlayerPoisonCough
+$playeralias	Baratus	male	*falling	PlayerFighterFallingScream
+$playeralias	Baratus	male	*splat		PlayerFallingSplat
+$playeralias	Baratus	male	*usefail	PlayerFighterFailedUse
+$playeralias	Baratus	male	*puzzfail	PuzzleFailFighter
+$playersound	Baratus	male	*jump		fgtjump
+$playeralias	Baratus male 	*fistgrunt	FighterGrunt
+
+$random PlayerClericExtremeDeathPicker	{ PlayerClericExtreme1Death
+					  PlayerClericExtreme2Death
+					  PlayerClericExtreme3Death }
+
+$playeralias	Parias	male	*death		PlayerClericNormalDeath
+$playeralias	Parias	male	*crazydeath	PlayerClericCrazyDeath
+$playeralias	Parias	male	*burndeath	PlayerClericBurnDeath
+$playeralias	Parias	male	*xdeath		PlayerClericExtremeDeathPicker
+$playeralias	Parias	male	*pain100	PlayerClericPain
+$playersounddup	Parias	male	*pain75		*pain100
+$playersounddup	Parias	male	*pain50		*pain100
+$playersounddup	Parias	male	*pain25		*pain100
+$playeralias	Parias	male	*grunt		PlayerClericGrunt
+$playeralias	Parias	male	*land		PlayerLand
+$playeralias	Parias	male	*poison		PlayerPoisonCough
+$playeralias	Parias	male	*falling	PlayerClericFallingScream
+$playeralias	Parias	male	*splat		PlayerFallingSplat
+$playeralias	Parias	male	*usefail	PlayerClericFailedUse
+$playeralias	Parias	male	*puzzfail	PuzzleFailCleric
+$playersound	Parias	male	*jump		plrjump
+$playeralias	Parias	male 	*fist		hexenpickup
+
+$random PlayerMageExtremeDeathPicker	{ PlayerMageExtreme1Death
+					  PlayerMageExtreme2Death
+					  PlayerMageExtreme3Death }
+
+$playeralias	mage	male	*death		PlayerMageNormalDeath
+$playeralias	mage	male	*crazydeath	PlayerMageCrazyDeath
+$playeralias	mage	male	*burndeath	PlayerMageBurnDeath
+$playeralias	mage	male	*xdeath		PlayerMageExtremeDeathPicker
+$playeralias	mage	male	*pain100	PlayerMagePain
+$playersounddup	mage	male	*pain75		*pain100
+$playersounddup	mage	male	*pain50		*pain100
+$playersounddup	mage	male	*pain25		*pain100
+$playeralias	mage	male	*grunt		PlayerMageGrunt
+$playeralias	mage	male	*land		PlayerLand
+$playeralias	mage	male	*poison		PlayerPoisonCough
+$playeralias	mage	male	*falling	PlayerMageFallingScream
+$playeralias	mage	male	*splat		PlayerFallingSplat
+$playeralias	mage	male	*usefail	PlayerMageFailedUse
+$playeralias	mage	male 	*fist		hexenpickup
+$playeralias	Parias	male	*puzzfail	PuzzleFailMage
+$playersound	mage	male	*jump		mgjump
+
+; Various death sounds
+;PlayerWimpyDeath        plrwdth        ; no longer used
+
+PlayerFighterNormalDeath        fgtddth
+PlayerFighterCrazyDeath         fgtcdth
+PlayerFighterExtreme1Death      fgtxdth1
+PlayerFighterExtreme2Death      fgtxdth2
+PlayerFighterExtreme3Death      fgtxdth3
+
+PlayerClericNormalDeath         plrdth
+PlayerClericCrazyDeath          plrcdth
+PlayerClericExtreme1Death       clxdth1
+PlayerClericExtreme2Death       clxdth2
+PlayerClericExtreme3Death       clxdth3
+
+PlayerMageNormalDeath           mgdth
+PlayerMageCrazyDeath            mgcdth
+PlayerMageExtreme1Death         mgxdth1
+PlayerMageExtreme2Death         mgxdth2
+PlayerMageExtreme3Death         mgxdth3
+
+PlayerFighterPain               fgtpain
+PlayerClericPain                plrpain3
+PlayerMagePain                  mgpain
+
+PlayerFighterGrunt              fgtgrunt
+PlayerClericGrunt               grunt1
+PlayerMageGrunt                 mggrunt
+
+PlayerLand                      feet4
+PlayerPoisonCough               pois2
+
+PlayerFighterFallingScream      fgtfall
+PlayerClericFallingScream       fall1
+PlayerMageFallingScream         mgfall
+
+PlayerFallingSplat              fallhit
+
+PlayerFighterBurnDeath          plrburn
+PlayerClericBurnDeath           plrburn
+PlayerMageBurnDeath             plrburn
+
+PlayerFighterFailedUse          fgtgrunt
+PlayerClericFailedUse           grunt1
+PlayerMageFailedUse             mggrunt
+
+;
+; Fighter
+;
+
+$pitchshiftrange 5
+FighterPunchMiss        punchmis
+FighterPunchHitWall     punch8
+FighterPunchHitThing    mumpun5
+FighterAxeHitThing      axe5
+FighterHammerMiss       hammis2
+FighterHammerHitWall    hamwal1
+FighterHammerHitThing   hmhit1a
+FighterHammerContinuous hamfly1
+FighterHammerExplode    impact3
+FighterSwordFire        sword2
+FighterSwordExplode     impact3
+FighterGrunt            gntmis1
+
+$limit FighterSwordFire 0
+$limit FighterSwordExplode 0
+$rolloff FighterSwordFire 300 2400
+$rolloff FighterSwordExplode 350 2400
+
+; Cleric
+
+ClericCStaffFire        spell1
+ClericCStaffExplode     glbhit4
+ClericCStaffHitThing    vamp5
+ClericFlameFire         strike3
+ClericFlameExplode      strike1
+ClericFlameCircle       firedhit
+HolySymbolFire          holy3
+SpiritActive            spirt7
+SpiritAttack            spirt5
+SpiritDie               spirts1
+
+$limit ClericCStaffFire 0
+$limit ClericCStaffExplode 0
+$limit ClericCStaffHitThing 0
+$rolloff ClericCStaffFire 300 2400
+$rolloff ClericCStaffExplode 350 2400
+$rolloff ClericCStaffHitThing 300 250
+
+$limit SpiritActive 0
+$limit SpiritDie 0
+$rolloff SpiritActive 200 2400
+$rolloff SpiritDie 200 2400
+
+;
+; Mage
+;
+
+MageWandFire            wand4
+MageLightningFire       lite2
+MageLightningContinuous gntpow
+MageLightningReady      wepele2
+MageLightningZap        gntact1
+MageShardsFire          cone3
+MageShardsExplode       shards1b
+MageStaffFire           mage4
+MageStaffExplode        mageball
+
+$limit MageStaffFire 0
+$limit MageStaffExplode 0
+$rolloff MageStaffFire 250 2400
+$rolloff MageStaffExplode 300 2400
+
+; Pig
+
+PigActive1              pigrunt1
+PigActive2              squeal1
+PigPain                 pigpain2
+PigAttack               bite4
+PigDeath                pigdth2
+
+;===========================================================================
+;
+; MONSTER SOUNDS
+;
+;===========================================================================
+$pitchshiftrange 4
+; Bishop
+
+BishopSight             syab2d
+BishopActive            stb1d
+BishopPain              bshpn1
+BishopAttack            pop
+BishopDeath             bishdth1
+BishopMissileExplode    bshhit2
+BishopBlur              blur6
+
+$limit BishopSight 0
+$limit BishopActive 0
+$limit BishopPain 0
+$limit BishopAttack 0
+$limit BishopDeath 0
+$limit BishopMissileExplode 0
+$limit Bishopblur 0
+
+$rolloff BishopSight 200 2400
+$rolloff BishopActive 200 2400
+$rolloff BishopPain 200 2400
+$rolloff BishopAttack 250 2400
+$rolloff BishopDeath 200 2400
+$rolloff BishopMissileExplode 250 2400
+$rolloff Bishopblur 225 2400
+
+
+; Centaur
+
+CentaurSight            taur1
+CentaurActive           taur2
+CentaurPain             taur4
+CentaurAttack           centhit2
+CentaurDeath            cntdth1
+CentaurLeaderAttack     cntshld4
+CentaurMissileExplode   impact3
+
+$limit CentaurSight 0
+$limit CentaurActive 0
+$limit CentaurPain 0
+$limit CentaurAttack 0
+$limit CentaurDeath 0
+$limit CentaurLeaderAttack 0
+$limit CentaurMissileExplode 0
+
+$rolloff CentaurSight 200 2400
+$rolloff CentaurActive 200 2400
+$rolloff CentaurPain 200 2400
+$rolloff CentaurAttack 200 2400
+$rolloff CentaurDeath 200 2400
+$rolloff CentaurLeaderAttack 250 2400
+$rolloff CentaurMissileExplode 250 2400
+
+
+; Serpent
+
+SerpentSight            wtrcrt7
+SerpentActive           burrowdn
+SerpentPain             serppn1
+SerpentAttack           wtrswip
+SerpentMeleeHit         wtrhit
+SerpentDeath            srpdth1
+SerpentBirth            burrowdn
+SerpentFXContinuous     glbhiss1
+SerpentFXHit            glbhit4
+
+$limit SerpentFXHit 0
+$limit SerpentFXContinous 0
+$rolloff SerpentFXHit 250 2400
+$rolloff SerpentFXContinous 200 2400
+
+$limit SerpentSight 0
+$limit SerpentActive 0
+$limit SerpentPain 0
+$limit SerpentAttack 0
+$limit SerpentMeleeHit 0
+$limit SerpentDeath 0
+$limit SerpentBirth 0
+
+$rolloff SerpentSight 200 2400
+$rolloff SerpentActive 200 2400
+$rolloff SerpentPain 200 2400
+$rolloff SerpentAttack 200 2400
+$rolloff SerpentMeleeHit 200 2400
+$rolloff SerpentDeath 200 2400
+$rolloff SerpentBirth 200 2400
+
+; Demon
+
+DemonSight              sbtsit5
+DemonActive             sbtsit5
+DemonPain               minact1
+DemonAttack             dematk2
+DemonDeath              sbtdth3
+DemonMissileFire        impfire2
+DemonMissileExplode     impact3
+
+$limit DemonSight 0
+$limit DemonActive 0
+$limit DemonPain 0
+$limit DemonAttack 0
+$limit DemonDeath 0
+$limit DemonMissileFire 0
+$limit DemonMissileExplode 0
+
+$rolloff DemonSight 200 2400
+$rolloff DemonActive 200 2400
+$rolloff DemonPain 200 2400
+$rolloff DemonAttack 200 2400
+$rolloff DemonDeath 200 2400
+$rolloff DemonMissileFire 250 2400
+$rolloff DemonMissileExplode 250 2400
+
+
+; Wraith
+
+WraithSight             raith5a
+WraithActive            raith3
+WraithPain              raith4a
+WraithAttack            raith1b
+WraithDeath             rathdth2
+WraithMissileFire       impfire2
+WraithMissileExplode    impact3
+
+$limit WraithSight 0
+$limit WraithActive 0
+$limit WraithPain 0
+$limit WraithAttack 0
+$limit WraithDeath 0
+$limit WraithMissileFire 0
+$limit WraithMissileExplode 0
+
+$rolloff WraithSight 200 2400
+$rolloff WraithActive 200 2400
+$rolloff WraithPain 200 2400
+$rolloff WraithAttack 200 2400
+$rolloff WraithDeath 200 2400
+$rolloff WraithMissileFire 250 2400
+$rolloff WraithMissileExplode 300 2400
+
+
+; Ettin
+EttinSight              cent2
+EttinActive             cent2
+EttinPain               cent1
+EttinAttack             ethit1
+EttinDeath              cntdth1
+
+$limit EttinSight 0
+$limit EttinActive 0
+$limit EttinPain 0
+$limit EttinAttack 0
+$limit EttinDeath 0
+
+$rolloff EttinSight 200 2400
+$rolloff EttinActive 200 2400
+$rolloff EttinPain 200 2400
+$rolloff EttinAttack 200 2400
+$rolloff EttinDeath 200 2400
+
+
+; Fire Demon
+FireDemonSpawn          spawn3
+FireDemonActive         fired5
+FireDemonPain           fired2
+FireDemonAttack         spit6
+FireDemonMissileHit     firedhit
+FireDemonDeath          fired3
+
+$limit FireDemonSpawn 0
+$limit FireDemonActive 0
+$limit FireDemonPain 0
+$limit FireDemonAttack 0
+$limit FireDemonMissileHit 0
+$limit FireDemonDeath 0
+
+$rolloff FireDemonSpawn 200 2400
+$rolloff FireDemonActive 200 2400
+$rolloff FireDemonPain 200 2400
+$rolloff FireDemonAttack 250 2400
+$rolloff FireDemonMissileHit 250 2400
+$rolloff FireDemonDeath 200 2400
+
+
+; Ice Guy
+IceGuySight             frosty1
+IceGuyActive            frosty1
+IceGuyAttack            frosty2
+IceGuyMissileExplode    shards1b
+
+$limit IceGuySight 0
+$limit IceGuyActive 0
+$limit IceGuyAttack 0
+$limit IceGuyMissileExplode 0
+
+$rolloff IceGuySight 200 2400
+$rolloff IceGuyActive 200 2400
+$rolloff IceGuyAttack 250 2400
+$rolloff IceGuyMissileExplode 300 2400
+
+
+; Sorcerer Boss
+SorcererSight           sorboss1
+SorcererActive          sorboss2
+SorcererPain            sorboss3
+SorcererSpellCast       woosh3
+SorcererBallWoosh       balls1
+SorcererDeathScream     sordie2
+SorcererBishopSpawn     bishapp
+SorcererBallPop         cork
+SorcererBallBounce      bounce2
+SorcererBallExplode     impact3
+SorcererBigBallExplode  sorblexp
+SorcererHeadScream      sorblexp
+
+$limit SorcererSight 0
+$limit SorcererActive 0
+$limit SorcererPain 0
+$limit SorcererSpellCast 0
+$limit SorcererBallWoosh 0
+$limit SorcererDeathScream 0
+$limit SorcererBishopSpawn 0
+$limit SorcererBallPop 0
+$limit SorcererBallBounce 0
+$limit SorcererBallExplode 0
+$limit SorcererHeadScream 0
+
+$rolloff SorcererSight 400 2400
+$rolloff SorcererActive 200 2400
+$rolloff SorcererPain 200 2400
+$rolloff SorcererSpellCast 300 2400
+$rolloff SorcererBallWoosh 250 2400
+$rolloff SorcererDeathScream 2400 3600
+$rolloff SorcererBishopSpawn 250 2400
+$rolloff SorcererBallPop 250 2400
+$rolloff SorcererBallBounce 250 2400
+$rolloff SorcererBallExplode 300 2400
+$rolloff SorcererHeadScream 200 2400
+
+
+; Dragon
+DragonSight             dragsit1
+DragonActive            dragsit1
+DragonWingflap          wing1
+DragonAttack            mage4
+DragonPain              dragpn2
+DragonDeath             dragdie2
+DragonFireballExplode   mageball
+
+$limit DragonSight 0
+$limit DragonActive 0
+$limit DragonWingflap 0
+$limit DragonAttack 0
+$limit DragonPain 0
+$limit DragonDeath 0
+$limit DragonFireballExplode 0
+
+$rolloff DragonSight 400 2400
+$rolloff DragonActive 200 2400
+$rolloff DragonWingflap 200 2400
+$rolloff DragonAttack 250 2400
+$rolloff DragonPain 200 2400
+$rolloff DragonDeath 2400 3600
+$rolloff DragonFireballExplode 300 2400
+
+
+; Korax
+KoraxSight              korsit
+KoraxActive             koract
+KoraxPain               korpn1
+KoraxAttack             koratk
+KoraxCommand            korcom
+KoraxDeath              kordth1
+KoraxStep               step
+
+$limit KoraxSight 0
+$limit KoraxActive 0
+$limit KoraxPain 0
+$limit KoraxAttack 0
+$limit KoraxCommand 0
+$limit KoraxDeath 0
+$limit KoraxStep 0
+
+$rolloff KoraxSight 400 2400
+$rolloff KoraxActive 200 2400
+$rolloff KoraxPain 200 2400
+$rolloff KoraxAttack 300 2400
+$rolloff KoraxCommand 200 2400
+$rolloff KoraxDeath 2400 3600
+$rolloff KoraxStep 400 1800
+
+; Korax Voice sounds
+KoraxVoiceGreetings     grtngs1
+KoraxVoiceReady         ready1
+KoraxVoiceBlood         blood1
+KoraxVoiceGame          game1
+KoraxVoiceBoard         board1
+KoraxVoiceWorship       wrship1
+KoraxVoiceMaybe         maybe1
+KoraxVoiceStrong        strong1
+KoraxVoiceFace          face1
+
+; Alternate monster pain sound (in gas cloud, lightning zapped, wraithverged)
+PuppyBeat               pup4
+
+SorcererSpellCast2	WOOSH4

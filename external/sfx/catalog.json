@@ -1,0 +1,1158 @@
+{
+  "heretic": [
+    {
+      "lump": "BSTACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSTATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSTATK2",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSTDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSTPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSTSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLKACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLKATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLKDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLKPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLKSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "GNTACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDAT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDAT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDAT3",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "HEDSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRGIBDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRNSHT",
+      "format": "doom"
+    },
+    {
+      "lump": "HRPLRCDT",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRPLRDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRPLROOF",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRPLRPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRPLRWDT",
+      "format": "ogg"
+    },
+    {
+      "lump": "HRWPNUP",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPAT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPAT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "KGTAT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "KGTATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "KGTDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "KGTPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "KGTSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "LOBHIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINAT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINAT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINAT3",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMAT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMAT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMHED",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "NEWPOD",
+      "format": "doom"
+    },
+    {
+      "lump": "PHOHIT",
+      "format": "doom"
+    },
+    {
+      "lump": "PODEXP",
+      "format": "doom"
+    },
+    {
+      "lump": "RIPSLOP",
+      "format": "ogg"
+    },
+    {
+      "lump": "SBTACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "SBTDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "SBTPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "SNKACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "SNKATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "SNKDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "SNKPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "SNKSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORDBON",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORDEXP",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORDSPH",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORRISE",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORZAP",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIZACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIZATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIZDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIZPAI",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIZSIT",
+      "format": "ogg"
+    }
+  ],
+  "hexen": [
+    {
+      "lump": "ACID5",
+      "format": "ogg"
+    },
+    {
+      "lump": "ARMOREXP",
+      "format": "ogg"
+    },
+    {
+      "lump": "ART1",
+      "format": "ogg"
+    },
+    {
+      "lump": "ARTACT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "AXE5",
+      "format": "ogg"
+    },
+    {
+      "lump": "BALLS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BATS",
+      "format": "ogg"
+    },
+    {
+      "lump": "BELLRNG",
+      "format": "ogg"
+    },
+    {
+      "lump": "BIRD",
+      "format": "ogg"
+    },
+    {
+      "lump": "BISHAPP",
+      "format": "ogg"
+    },
+    {
+      "lump": "BISHDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BITE4",
+      "format": "ogg"
+    },
+    {
+      "lump": "BLANK",
+      "format": "ogg"
+    },
+    {
+      "lump": "BLASTR",
+      "format": "ogg"
+    },
+    {
+      "lump": "BLDDRP1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BLUR6",
+      "format": "ogg"
+    },
+    {
+      "lump": "BOARD1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BROOK1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSHHIT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "BSHPN1",
+      "format": "ogg"
+    },
+    {
+      "lump": "BUBBLE",
+      "format": "ogg"
+    },
+    {
+      "lump": "BURROWDN",
+      "format": "ogg"
+    },
+    {
+      "lump": "CENT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "CENT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "CENTHIT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "CHAINS",
+      "format": "ogg"
+    },
+    {
+      "lump": "CHAT3",
+      "format": "ogg"
+    },
+    {
+      "lump": "CHNSWCH8",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLHMM",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLXDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLXDTH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "CLXDTH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "CNTDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "CNTSHLD4",
+      "format": "ogg"
+    },
+    {
+      "lump": "CONE3",
+      "format": "ogg"
+    },
+    {
+      "lump": "CORK",
+      "format": "ogg"
+    },
+    {
+      "lump": "CRKETS",
+      "format": "ogg"
+    },
+    {
+      "lump": "CRKETS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "DEFAULT",
+      "format": "ogg"
+    },
+    {
+      "lump": "DEMATK2",
+      "format": "ogg"
+    },
+    {
+      "lump": "DORSTP1B",
+      "format": "ogg"
+    },
+    {
+      "lump": "DORSTP3",
+      "format": "ogg"
+    },
+    {
+      "lump": "DORSTP4",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRAGDIE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRAGPN2",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRAGSIT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRCRK5A",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRLTCH3A",
+      "format": "ogg"
+    },
+    {
+      "lump": "DROP2",
+      "format": "ogg"
+    },
+    {
+      "lump": "DRSTP2",
+      "format": "ogg"
+    },
+    {
+      "lump": "ETHIT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "ETHPORT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "FACE1",
+      "format": "ogg"
+    },
+    {
+      "lump": "FALL1",
+      "format": "ogg"
+    },
+    {
+      "lump": "FALLHIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "FEET4",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTCDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTDDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTFALL",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTGRUNT",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTHMM",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTPAIN",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTXDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTXDTH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "FGTXDTH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "FIRED2",
+      "format": "ogg"
+    },
+    {
+      "lump": "FIRED3",
+      "format": "ogg"
+    },
+    {
+      "lump": "FIRED5",
+      "format": "ogg"
+    },
+    {
+      "lump": "FIREDHIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "FLECH4",
+      "format": "ogg"
+    },
+    {
+      "lump": "FLY3",
+      "format": "ogg"
+    },
+    {
+      "lump": "FROGS",
+      "format": "ogg"
+    },
+    {
+      "lump": "FROSTY1",
+      "format": "ogg"
+    },
+    {
+      "lump": "FROSTY2",
+      "format": "ogg"
+    },
+    {
+      "lump": "GAME1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GLASS5",
+      "format": "ogg"
+    },
+    {
+      "lump": "GLBHISS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GLBHIT4",
+      "format": "ogg"
+    },
+    {
+      "lump": "GLOOP1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GNTACT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GNTMIS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GNTPOW",
+      "format": "ogg"
+    },
+    {
+      "lump": "GONG",
+      "format": "ogg"
+    },
+    {
+      "lump": "GRTNGS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "GRUNT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "HAMBLO8A",
+      "format": "ogg"
+    },
+    {
+      "lump": "HAMFIR1",
+      "format": "ogg"
+    },
+    {
+      "lump": "HAMFLY1",
+      "format": "ogg"
+    },
+    {
+      "lump": "HAMMIS2",
+      "format": "ogg"
+    },
+    {
+      "lump": "HAMWAL1",
+      "format": "ogg"
+    },
+    {
+      "lump": "HMHIT1A",
+      "format": "ogg"
+    },
+    {
+      "lump": "HOLY3",
+      "format": "ogg"
+    },
+    {
+      "lump": "ICEBRK1A",
+      "format": "ogg"
+    },
+    {
+      "lump": "ICEDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "ICEMV2",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPACT3",
+      "format": "ogg"
+    },
+    {
+      "lump": "IMPFIRE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "INSECTS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "KATYDID",
+      "format": "ogg"
+    },
+    {
+      "lump": "KEYS2A",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORACT",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORATK",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORCOM",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORPN1",
+      "format": "ogg"
+    },
+    {
+      "lump": "KORSIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "LAVA2",
+      "format": "ogg"
+    },
+    {
+      "lump": "LITE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "LOCKED",
+      "format": "ogg"
+    },
+    {
+      "lump": "MAGE4",
+      "format": "ogg"
+    },
+    {
+      "lump": "MAGEBALL",
+      "format": "ogg"
+    },
+    {
+      "lump": "MAYBE1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGCDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGFALL",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGGRUNT",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGHMM",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGPAIN",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGXDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGXDTH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "MGXDTH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINACT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINACT2",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINDTH4",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINPAIN4",
+      "format": "ogg"
+    },
+    {
+      "lump": "MINSIT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MTLMV3",
+      "format": "ogg"
+    },
+    {
+      "lump": "MTLSTRT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUCK5",
+      "format": "ogg"
+    },
+    {
+      "lump": "MUMPUN5",
+      "format": "ogg"
+    },
+    {
+      "lump": "OWL",
+      "format": "ogg"
+    },
+    {
+      "lump": "PICUP5",
+      "format": "ogg"
+    },
+    {
+      "lump": "PIGDTH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "PIGPAIN2",
+      "format": "ogg"
+    },
+    {
+      "lump": "PIGRUNT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "PLRBURN",
+      "format": "ogg"
+    },
+    {
+      "lump": "PLRCDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "PLRDTH",
+      "format": "ogg"
+    },
+    {
+      "lump": "PLRPAIN3",
+      "format": "ogg"
+    },
+    {
+      "lump": "POIS2",
+      "format": "ogg"
+    },
+    {
+      "lump": "POP",
+      "format": "ogg"
+    },
+    {
+      "lump": "POTBRK1",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUFF1",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUNCH8",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUNCHMIS",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUP4",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUZSLV",
+      "format": "ogg"
+    },
+    {
+      "lump": "PUZSLV1",
+      "format": "ogg"
+    },
+    {
+      "lump": "QUAKE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "RAITH1B",
+      "format": "ogg"
+    },
+    {
+      "lump": "RAITH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "RAITH4A",
+      "format": "ogg"
+    },
+    {
+      "lump": "RATHDTH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "READY1",
+      "format": "ogg"
+    },
+    {
+      "lump": "RESPAWN",
+      "format": "ogg"
+    },
+    {
+      "lump": "ROCKS",
+      "format": "ogg"
+    },
+    {
+      "lump": "SAMPLE11",
+      "format": "ogg"
+    },
+    {
+      "lump": "SBTDTH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "SBTSIT5",
+      "format": "ogg"
+    },
+    {
+      "lump": "SERPPN1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SHARDS1B",
+      "format": "ogg"
+    },
+    {
+      "lump": "SHLURP",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORBLEXP",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORBOSS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORBOSS2",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORBOSS3",
+      "format": "ogg"
+    },
+    {
+      "lump": "SORDIE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPAWN3",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPELL1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIKE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIKE3",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIRT5",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIRT7",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIRTS1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SPIT6",
+      "format": "ogg"
+    },
+    {
+      "lump": "SQUEAL1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SRPDTH1",
+      "format": "ogg"
+    },
+    {
+      "lump": "STB1D",
+      "format": "ogg"
+    },
+    {
+      "lump": "STEEL1",
+      "format": "ogg"
+    },
+    {
+      "lump": "STEEL2",
+      "format": "ogg"
+    },
+    {
+      "lump": "STEP",
+      "format": "ogg"
+    },
+    {
+      "lump": "STMDR1",
+      "format": "ogg"
+    },
+    {
+      "lump": "STNMV4",
+      "format": "ogg"
+    },
+    {
+      "lump": "STRETCH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "STRIKE1",
+      "format": "ogg"
+    },
+    {
+      "lump": "STRIKE3",
+      "format": "ogg"
+    },
+    {
+      "lump": "STRONG1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SWORD2",
+      "format": "ogg"
+    },
+    {
+      "lump": "SWTCH6",
+      "format": "ogg"
+    },
+    {
+      "lump": "SWTCHRP1",
+      "format": "ogg"
+    },
+    {
+      "lump": "SWTCHV4",
+      "format": "ogg"
+    },
+    {
+      "lump": "SYAB2D",
+      "format": "ogg"
+    },
+    {
+      "lump": "TAUR1",
+      "format": "ogg"
+    },
+    {
+      "lump": "TAUR2",
+      "format": "ogg"
+    },
+    {
+      "lump": "TAUR4",
+      "format": "ogg"
+    },
+    {
+      "lump": "THNDR1",
+      "format": "ogg"
+    },
+    {
+      "lump": "TICK",
+      "format": "ogg"
+    },
+    {
+      "lump": "TICTOC",
+      "format": "ogg"
+    },
+    {
+      "lump": "TORCH2",
+      "format": "ogg"
+    },
+    {
+      "lump": "TPORT1",
+      "format": "ogg"
+    },
+    {
+      "lump": "TREEBRK",
+      "format": "ogg"
+    },
+    {
+      "lump": "TREEBURN",
+      "format": "ogg"
+    },
+    {
+      "lump": "WAND4",
+      "format": "ogg"
+    },
+    {
+      "lump": "WEPELE2",
+      "format": "ogg"
+    },
+    {
+      "lump": "WIND3",
+      "format": "ogg"
+    },
+    {
+      "lump": "WING1",
+      "format": "ogg"
+    },
+    {
+      "lump": "WOOSH3",
+      "format": "ogg"
+    },
+    {
+      "lump": "WRSHIP1",
+      "format": "ogg"
+    },
+    {
+      "lump": "WTRCRT7",
+      "format": "ogg"
+    },
+    {
+      "lump": "WTRHIT",
+      "format": "ogg"
+    },
+    {
+      "lump": "WTRSWIP",
+      "format": "ogg"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+$pitchshiftrange 4
+
+$playersound	hereticplayer	male	*wimpydeath	hrplrwdth
+$playersound	hereticplayer	male	*death		hrplrdth
+$playersound	hereticplayer	male	*crazydeath	hrplrcdth
+$playersound	hereticplayer	male	*gibbed		hrgibdth
+$playersound	hereticplayer	male	*pain100	hrplrpai
+$playersounddup	hereticplayer	male	*pain75		*pain100
+$playersounddup	hereticplayer	male	*pain50		*pain100
+$playersounddup	hereticplayer	male	*pain25		*pain100
+$playersound	hereticplayer	male	*weaponlaugh	hrwpnup
+$playersounddup	hereticplayer	male	*evillaugh	*weaponlaugh
+$playersound	hereticplayer	male	*grunt		hrplroof
+$playersounddup	hereticplayer	male	*usefail	*grunt
+$playersounddup	hereticplayer	male	*land		*grunt
+$playersound	hereticplayer	male	*jump		hrplrjmp
+$playeralias 	hereticplayer	male 	*fist	hereticpickup
+
+$playersound	sirena	male	*wimpydeath	dsdienor
+$playersound	sirena	male	*death		dsdienor
+$playersound	sirena	male	*crazydeath	dsdiealt
+$playersound	sirena	male	*gibbed		dsxplser
+$playersound	sirena	male	*pain100	dshitser
+$playersounddup	sirena	male	*pain75		*pain100
+$playersounddup	sirena	male	*pain50		*pain100
+$playersounddup	sirena	male	*pain25		*pain100
+$playersound	sirena	male	*weaponlaugh	hrwpnup
+$playersounddup	sirena	male	*evillaugh	*weaponlaugh
+$playersound	sirena	male	*grunt		dsbutt
+$playersound	sirena	male	*usefail	dsbutt
+$playersounddup	sirena	male	*land		*grunt
+$playersound	sirena	male	*jump		hrplrjmp
+$playeralias 	sirena	male 	*fist	hereticpickup
+
+hrplrcdth  		hereticxdeath
+
+$pitchshiftrange 5
+world/volcano/blast		lobhit
+world/volcano/shoot		bstatk
+
+$limit world/volcano/blast 0
+$limit world/volcano/shoot 0
+$rolloff world/volcano/blast 350 2400
+$rolloff world/volcano/shoot 300 2400
+
+$pitchshiftrange 4
+himp/sight			impsit
+$limit himp/sight 0
+$rolloff himp/sight 200 2400
+himp/attack			impat1
+$limit himp/attack 0
+$rolloff himp/attack 200 2400
+himp/pain			imppai
+$limit himp/pain 0
+$rolloff himp/pain 200 2400
+himp/death			impdth
+$limit himp/death 0
+$rolloff himp/death 200 2400
+himp/active			impsit
+$limit himp/active 0
+$rolloff himp/active 200 2400
+himp/leaderattack		impat2
+$limit himp/leaderattack 0
+$rolloff himp/leaderattack 200 2400
+
+mummy/sight			mumsit
+$limit mummy/sight 0
+$rolloff mummy/sight 200 2400
+mummy/attack1			mumat1
+$limit mummy/attack1 0
+$rolloff mummy/attack1 200 2400
+mummy/attack2			mumat2
+$limit mummy/attack2 0
+$rolloff mummy/attack2 200 2400
+mummy/pain			mumpai
+$limit mummy/pain 0
+$rolloff mummy/pain 200 2400
+mummy/death			mumdth
+$limit mummy/death 0
+$rolloff mummy/death 200 2400
+mummy/active			mumsit
+$limit mummy/active 0
+$rolloff mummy/active 200 2400
+mummy/head			mumhed
+$limit mummy/head 0
+$rolloff mummy/head 200 2400
+
+beast/sight			bstsit
+$limit beast/sight 0
+$rolloff beast/sight 200 2400
+beast/attack			bstatk
+$limit beast/attack 0
+$rolloff beast/attack 300 2400
+beast/pain			bstpai
+$limit beast/pain 0
+$rolloff beast/pain 200 2400
+beast/death			bstdth
+$limit beast/death 0
+$rolloff beast/death 200 2400
+beast/active			bstact
+$limit beast/active 0
+$rolloff beast/active 200 2400
+
+snake/attack			snkatk
+$limit snake/attack 0
+$rolloff snake/attack 300 2400
+snake/sight			snksit
+$limit snake/sight 0
+$rolloff snake/sight 200 2400
+snake/pain			snkpai
+$limit snake/pain 0
+$rolloff snake/pain 200 2400
+snake/death			snkdth
+$limit snake/death 0
+$rolloff snake/death 200 2400
+snake/active			snkact
+$limit snake/active 0
+$rolloff snake/active 200 2400
+
+clink/sight			clksit
+$limit clink/sight 0
+$rolloff clink/sight 200 2400
+clink/attack			clkatk
+$limit clink/attack 0
+$rolloff clink/attack 200 2400
+clink/pain			clkpai
+$limit clink/pain 0
+$rolloff clink/pain 200 2400
+clink/death			clkdth
+$limit clink/death 0
+$rolloff clink/death 200 2400
+clink/active			clkact
+$limit clink/active 0
+$rolloff clink/active 200 2400
+
+hknight/sight			kgtsit
+$limit hknight/sight 0
+$rolloff hknight/sight 200 2400
+hknight/attack			kgtatk
+$limit hknight/attack 0
+$rolloff hknight/attack 300 2400
+hknight/melee			kgtat2
+$limit hknight/melee 0
+$rolloff hknight/melee 200 2400
+hknight/pain			kgtpai
+$limit hknight/pain 0
+$rolloff hknight/pain 200 2400
+hknight/death			kgtdth
+$limit hknight/death 0
+$rollof hknight/death 200 2400
+hknight/active			kgtsit
+$limit hknight/active 0
+$rolloff hknight/active 200 2400
+hknight/hit				hrnsht
+$limit hknight/hit 0
+$rolloff hknight/hit 250 2400
+hknight/axewhoosh		kgtatk
+$limit hknight/axewhoosh 0
+$rolloff hknight/axewhoosh 200 2400
+
+misc/timebomb			phohit
+
+$limit misc/timebomb 0
+
+ironlich/sight			hedsit
+$limit ironlich/sight 0
+$rolloff ironlich/sight 400 2400
+ironlich/attack1		hedat1
+$limit ironlich/attack1 0
+$rolloff ironlich/attack1 300 2400
+ironlich/attack2		hedat2
+$limit ironlich/attack2 0
+$rolloff ironlich/attack2 300 2400
+ironlich/attack3		hedat3
+$limit ironlich/attack3 0
+$rolloff ironlich/attack3 300 2400
+ironlich/pain			hedpai
+$limit ironlich/pain 0
+$rolloff ironlich/pain 200 2400
+ironlich/death			heddth
+$limit ironlich/death 0
+$rolloff ironlich/death 2400 3600
+ironlich/active			hedact
+$limit ironlich/active 0
+$rolloff ironlich/active 200 2400
+
+dsparilserpent/sight		bstsit
+$limit dsparilserpent/sight 0
+$rolloff dsparilserpent/sight 400 2400
+dsparilserpent/attack		bstatk2
+$limit dsparilserpent/attack 0
+$rolloff dsparilserpent/attack 350 2400
+dsparilserpent/pain		sbtpai
+$limit dsparilserpent/pain 0
+$rolloff dsparilserpent/pain 200 2400
+dsparilserpent/death		sbtdth
+$limit dsparilserpent/death 0
+$rolloff dsparilserpent/death 2400 3600
+dsparilserpent/active		sbtact
+$limit dsparilserpent/active 0
+$rolloff dsparilserpent/active 200 2400
+
+dsparil/sight			sorsit
+$limit dsparil/sight 0
+$rolloff dsparil/sight 400 2400
+dsparil/attack			soratk
+$limit dsparil/attack 0
+$rolloff dsparil/attack 400 2400
+dsparil/pain			sorpai
+$limit dsparil/pain 0
+$rolloff dsparil/pain 200 2400
+dsparil/active			soract
+$limit dsparil/active 0
+$rolloff dsparil/active 200 2400
+dsparil/rise			sorrise
+$limit dsparil/rise 0
+$rolloff dsparil/rise 300 2400
+dsparil/zap			sorzap
+$limit dsparil/zap 0
+$rolloff dsparil/zap 350 2400
+dsparil/scream			sordsph
+$limit dsparil/scream 0
+$rolloff dsparil/scream 2400 3600
+dsparil/explode			sordexp
+$limit dsparil/explode 0
+$rolloff dsparil/explode 2400 3600
+dsparil/bones			sordbon
+$limit dsparil/bones 0
+$rolloff dsparil/bones 200 2400
+dsparilattack		soratk
+$limit dsparilattack 0
+$rolloff dsparilattack 400 2400
+
+wizard/sight			wizsit
+$limit wizard/sight 0
+$rolloff wizard/sight 200 2400
+wizard/attack			wizatk
+$limit wizard/attack 0
+$rolloff wizard/attack 225 2400
+wizard/death			wizdth
+$limit wizard/death 0
+$rolloff wizard/death 200 2400
+wizard/pain			wizpai
+$limit wizard/pain 0
+$rolloff wizard/pain 200 2400
+wizard/active1			wizact
+$limit wizard/active1 0
+$rolloff wizard/active1 200 2400
+$random wizard/active 		{ wizard/sight wizard/active1 }
+$limit wizard/active 0
+$rolloff wizard/active 200 2400
+
+minotaur/sight			minsit
+$limit minotaur/sight 0
+$rolloff minotaur/sight 400 2400
+minotaur/melee			stfhit
+$limit minotaur/melee 0
+$rolloff minotaur/melee 225 2400
+minotaur/attack1		minat1
+$limit minotaur/attack1 0
+$rolloff minotaur/attack1 300 2400
+minotaur/attack2		minat2
+$limit minotaur/attack2 0
+$rolloff minotaur/attack2 350 2400
+minotaur/attack3		minat3
+$limit minotaur/attack3 0
+$rolloff minotaur/attack3 300 2400
+minotaur/pain			minpai
+$limit minotaur/pain 0
+$rolloff minotaur/pain 200 2400
+minotaur/death			mindth
+$limit minotaur/death 0
+$rolloff minotaur/death 2400 3600
+minotaur/active			minact
+$limit minotaur/active 0
+$rolloff minotaur/active 200 2400
+minotaur/fx2hit			phohit
+$limit minotaur/fx2hit 0
+$rolloff minotaur/fx2hit 350 2400
+minotaur/fx3hit			phohit
+$limit minotaur/fx3hit 0
+$rolloff minotaur/fx3hit 300 2400
+
+world/podexplode		podexp
+$limit world/podexplode 0
+$rolloff world/podexplode 300 2400
+
+world/podgrow			newpod
+$limit world/podgrow 0
+$rolloff world/podgrow 300 2400

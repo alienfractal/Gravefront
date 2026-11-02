@@ -1,0 +1,52 @@
+{
+  "golem": {
+    "walk": "ABCD",
+    "attack": "EFG",
+    "death": "IJKLMNOP"
+  },
+  "gargoyle": {
+    "walk": "ABC",
+    "attack": "DEF",
+    "death": "GHIJKL"
+  },
+  "ettin": {
+    "walk": "ABCD",
+    "attack": "EFG",
+    "death": "IJKLMNOPQ"
+  },
+  "afrit": {
+    "walk": "ABC",
+    "attack": "K",
+    "death": "DL"
+  },
+  "knight": {
+    "walk": "ABCD",
+    "attack": "EFGH",
+    "death": "IJKLMNO"
+  },
+  "centaur": {
+    "walk": "ABCD",
+    "attack": "EFG",
+    "death": "KLMNOPQRSTU"
+  },
+  "ophidian": {
+    "walk": "ABCD",
+    "attack": "EF",
+    "death": "GHIJKLMNOP"
+  },
+  "bishop": {
+    "walk": "ABCD",
+    "attack": "EF",
+    "death": "GHIJKLMNOPQRSTUVWX"
+  },
+  "lich": {
+    "walk": "AB",
+    "attack": "B",
+    "death": "CDEFGHI"
+  },
+  "serpent": {
+    "walk": "ABCD",
+    "attack": "EFG",
+    "death": "HIJKLMNOPQ"
+  }
+}
