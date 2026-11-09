@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flame_audio/flame_audio.dart';
 
+import 'battle_music_service.dart';
 import '../game/states/level/services/battle_logic_service.dart';
 import '../gen/assets.gen.dart';
 
@@ -21,14 +22,26 @@ String soundAssetPathFor(BattleSoundEvent event) {
 }
 
 class GameAudioService {
-  GameAudioService({required this.level});
+  GameAudioService({required this.level, BattleMusicService? music})
+    : _music = music ?? BattleMusicService();
 
   final int level;
+  final BattleMusicService _music;
   final AudioCache _cache = AudioCache(prefix: '');
   final Map<String, AudioPool> _pools = {};
-  bool enabled = true;
+  bool _enabled = true;
   bool _disposed = false;
   Future<void>? _loading;
+
+  bool get enabled => _enabled;
+
+  set enabled(bool value) {
+    if (_disposed) return;
+    _enabled = value;
+    _music.setEnabled(value);
+  }
+
+  void finishBattle() => _music.finish();
 
   Iterable<String> get files sync* {
     yield Assets.audio.summonWav;
@@ -71,10 +84,16 @@ class GameAudioService {
         // An unavailable device or codec must not stop the battle.
       }
     }
+    if (_disposed) return;
+    try {
+      await _music.start();
+    } catch (_) {
+      // Music failure must not prevent battle input or sound effects.
+    }
   }
 
   void play(BattleSoundEvent event) {
-    if (!enabled || _disposed) return;
+    if (!_enabled || _disposed) return;
     final pool = _pools[soundAssetPathFor(event)];
     if (pool != null) unawaited(_play(pool));
   }
@@ -90,7 +109,9 @@ class GameAudioService {
   Future<void> dispose() async {
     if (_disposed) return;
     _disposed = true;
+    _music.finish();
     await _loading;
+    await _music.dispose();
     for (final pool in _pools.values) {
       await pool.dispose();
     }

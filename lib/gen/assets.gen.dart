@@ -158,6 +158,12 @@ class $AssetsAudioGen {
   /// File path: assets/audio/lich_hurt.wav
   String get lichHurtWav => 'assets/audio/lich_hurt.wav';
 
+  /// File path: assets/audio/only_retro_2.mid
+  String get onlyRetro2Mid => 'assets/audio/only_retro_2.mid';
+
+  /// File path: assets/audio/only_retro_2.ogg
+  String get onlyRetro2Ogg => 'assets/audio/only_retro_2.ogg';
+
   /// File path: assets/audio/ophidian_attack.ogg
   String get ophidianAttackOgg => 'assets/audio/ophidian_attack.ogg';
 
@@ -250,6 +256,8 @@ class $AssetsAudioGen {
     lichDeathWav,
     lichHurtOgg,
     lichHurtWav,
+    onlyRetro2Mid,
+    onlyRetro2Ogg,
     ophidianAttackOgg,
     ophidianAttackWav,
     ophidianDeathOgg,

@@ -98,6 +98,7 @@ class RtsGame extends FlameGame with HasKeyboardHandlerComponents {
     }
     if (!_finished && battle.winner != null) {
       _finished = true;
+      _audio.finishBattle();
       flow.finish(battle.winner!);
     }
     super.update(dt);
@@ -114,9 +115,11 @@ class RtsGame extends FlameGame with HasKeyboardHandlerComponents {
 
   void toggleHitboxes() => showHitboxes = !showHitboxes;
 
+  void stopAudio() => unawaited(_audio.dispose());
+
   @override
   void onRemove() {
-    unawaited(_audio.dispose());
+    stopAudio();
     super.onRemove();
   }
 

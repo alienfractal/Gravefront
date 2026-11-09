@@ -27,11 +27,14 @@ This project follows the ownership pattern used in `C:/lien/gamejams/RobotFluttb
 | Pixel-scaled level HUD and command buttons | `lib/game/states/level/view/level_screen_view.dart` |
 | Pointer input and fixed tick | `lib/gravefront_arena_game.dart` |
 | Fixed-camera Flame menu and faction hit targets | `lib/game/states/main_menu/view/main_menu_view.dart` |
-| Sound loading, playback and disposal | `lib/audio/game_audio_service.dart` |
+| Pooled battle sound effects and audio ownership | `lib/audio/game_audio_service.dart` |
+| Looping battle music, mute, finish and disposal | `lib/audio/battle_music_service.dart` |
 | Screen-to-world coordinate mapping | `lib/game/camera/pixel_viewport.dart` |
 | Shared UI colors and frames | `lib/game/view/retro_theme.dart` |
 
 The data flow is `pointer or button → battle order → fixed-step simulation → model state → animation handler and level view`. Flame keep hitboxes detect contact with unit attack-range sensors; `KeepContactBehavior` reports those contacts to the battle model. Combat changes health and mana in pure Dart. Rendering and sound consume the result; neither decides damage, victory or pickup timing. `CampaignFsm` keeps level progress while `RtsHome` replaces the `RtsGame` instance for each new battle. `RtsHome` keeps one `LevelCacheService` across those replacements and disposes it when the app home is removed.
+
+`assets/audio/only_retro_2.mid` is the editable Type 1 Arrangement export from Ableton. The game plays its `only_retro_2.ogg` render through Flame Audio, so Windows and web use the same OPL3-generated music without runtime MIDI synthesis. The render uses libADLMIDI 1.6.2.1 with Nuked OPL3, embedded bank 0 (AIL Fat Man), two chips, 44.1 kHz stereo, and no automatic arpeggio. ADLplug's saved bank differs, so its exact timbres are not reproduced. `tool/render_battle_music.ps1` regenerates the OGG after the MIDI asset changes. `GameAudioService` owns the effect pools and one `BattleMusicService` for each battle. The music loops during play, follows the existing sound toggle, stops when a winner is recorded, and begins disposal when a battle is replaced or the app home is removed. `BattleMusicService` serializes asynchronous start, mute, finish and disposal; audio completion never drives combat or campaign state.
 
 `BattleState.step` stops after a winner is set. `CampaignFsm.advance` accepts only a victory and `retry` accepts only a defeat; each reports whether the transition happened. `RtsHome` opens a fresh battle only after an accepted transition, so a stale result-button callback cannot restart a lost or already restarted battle.
 

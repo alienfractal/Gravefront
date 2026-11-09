@@ -50,6 +50,7 @@ class _RtsHomeState extends State<RtsHome> {
   @override
   void dispose() {
     _game?.pauseEngine();
+    _game?.stopAudio();
     _menuGame.pauseEngine();
     unawaited(_levelSprites.dispose());
     super.dispose();
@@ -62,6 +63,7 @@ class _RtsHomeState extends State<RtsHome> {
 
   void _openLevel() {
     _game?.pauseEngine();
+    _game?.stopAudio();
     setState(() {
       _game = RtsGame(
         _campaign.faction!,
@@ -85,6 +87,7 @@ class _RtsHomeState extends State<RtsHome> {
 
   void _backToMenu() {
     _game?.pauseEngine();
+    _game?.stopAudio();
     _flow.returnToMenu();
     setState(() {
       _game = null;

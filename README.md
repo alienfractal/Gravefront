@@ -25,11 +25,22 @@ For a browser build, use `flutter run -d chrome` or `flutter build web`.
 - Click a unit to select it, or drag a rectangle around several units.
 - Right click the field to move selected units. Right click an enemy unit or keep to attack it.
 - The **Move / Attack** button provides the same command for touch or one-button mice.
-- The speaker button in the top bar mutes or enables sound effects.
+- The speaker button in the top bar mutes or enables battle music and sound effects.
 - Press **1** to show or hide hitbox debug outlines. Yellow marks sprite bounds, cyan marks each keep's solid hurt area, red marks the enemy keep's click target, and pink marks unit selection areas. Keep combat and click areas fit the visible keep sprites. Flame hitboxes detect when a unit's attack range reaches a keep; a keep-contact behavior reports the collision and the battle model applies damage. Unit-versus-unit combat still uses point positions and attack ranges.
 - Destroy the opposing keep to win.
 
 Summoning, attacks, damage, and deaths use the corresponding ZDoom Wars sound effects. The game plays WAV copies for reliable Windows support; the extracted OGG originals are kept alongside them.
+
+Battle music comes from the editable `assets/audio/only_retro_2.mid` Arrangement export. The game loops an OPL3-rendered `only_retro_2.ogg` while a battle is active, stops it on victory or defeat, and starts it again for a new battle. This render uses libADLMIDI's Nuked OPL3 emulator with its default AIL Fat Man bank and two chips. Its patches can differ from the ADLplug bank selected in Ableton. The game does not synthesize MIDI at runtime.
+
+After editing the Ableton arrangement, export a fresh Type 1 MIDI file to `assets/audio/only_retro_2.mid`, then regenerate the playable asset with a wave-only `adlmidiplay` built from libADLMIDI 1.6.2.1 and FFmpeg:
+
+```powershell
+.\tool\render_battle_music.ps1 -Renderer 'C:\path\to\adlmidiplay.exe' -Ffmpeg 'C:\path\to\ffmpeg.exe'
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+
+The render script selects Nuked OPL3, bank 0, two chips, gain 1, and Vorbis quality 5. The MIDI source remains bundled so it can be edited and re-rendered later.
 
 Level 1 starts with Golem versus Ettin. Each later level starts with the newly unlocked unit on both sides as well. Units attack nearby enemies automatically. There is no building construction, pathfinding around obstacles, or multiplayer yet.
 
@@ -60,7 +71,7 @@ All five levels use `assets/images/terrain/battlefield.png` as their background.
 - `tool/build_retro_scenery.py`: creates optional procedural scenery previews in `assets/images/terrain/generated/` without overwriting the active map.
 - `external/png/`: the full Heretic and Hexen sprite library from the user's local PK3, converted to previewable PNGs.
 - `tool/build_unit_atlases.py`: rebuilds the directional atlases from `external/png/`; mirrored Doom sprite rotations are handled during generation.
-- `assets/audio/`: attack, hurt, and death effects for all ten creatures plus the summon sound.
+- `assets/audio/`: attack, hurt, and death effects for all ten creatures, the summon sound, and the battle music MIDI source plus OPL3 render.
 - `tool/extract_game_sfx.py`: extracts OGG lumps from the local PK3 and converts them to WAV with FFmpeg.
 - `external/sfx/`: all 77 Heretic and 211 Hexen sounds from the PK3's labeled sound sections, each kept in its original format with a WAV preview. The folders include `SNDINFO.txt` sound-name mappings; `catalog.json` lists every lump.
 - `tool/extract_sound_library.py`: rebuilds the full sound library from the local PK3.
